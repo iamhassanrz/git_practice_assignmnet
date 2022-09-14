@@ -1,7 +1,12 @@
 let a=14;
-
-for(let i=2;i<=a;i++){
+let count=0;
+for(let i=1;i<=a;i++){
 if(num % i ==0){
-console.log("not a prime number");
-}else{
-console.log("prime number");
+    count++
+ }
+ } if(count==2){
+console.log(" prime number");
+}
+else{
+console.log("is not a prime number");
+}
