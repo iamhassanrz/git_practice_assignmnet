@@ -8,5 +8,5 @@ if(num % i ==0){
 console.log(" prime number");
 }
 else{
-console.log("not a prime number");
+console.log("is not a prime number");
 }
